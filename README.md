@@ -7,9 +7,9 @@ Currently supports building an image for the Raspberry Pi (and it doesn't quite 
 
 ## Dependencies
 
-poky HEAD: git://git.yoctoproject.org/poky
-meta-openembedded HEAD: git://git.openembedded.org/meta-openembedded
-meta-raspberrypi HEAD: git://github.com/djwillis/meta-raspberrypi
+poky HEAD: `git://git.yoctoproject.org/poky`
+meta-openembedded HEAD: `git://git.openembedded.org/meta-openembedded`
+meta-raspberrypi HEAD: `git://github.com/djwillis/meta-raspberrypi`
 
 
 ## Instructions
