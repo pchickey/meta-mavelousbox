@@ -7,9 +7,9 @@ Currently supports building an image for the Raspberry Pi (and it doesn't quite 
 
 ## Dependencies
 
-* poky HEAD: `git://git.yoctoproject.org/poky`
-* meta-openembedded HEAD: `git://git.openembedded.org/meta-openembedded`
-* meta-raspberrypi HEAD: `git://github.com/djwillis/meta-raspberrypi`
+* poky, tag '1.3' (danny release) `git://git.yoctoproject.org/poky`
+* meta-openembedded, danny branch: `git://git.openembedded.org/meta-openembedded`
+* meta-raspberrypi, master branch: `git://github.com/djwillis/meta-raspberrypi`
 
 
 ## Instructions
@@ -45,4 +45,4 @@ Then you can build an image for the raspberry pi with the following command:
 ~/src/mavelousbox $ bitbake rpi-mavelousbox-image
 ```
 
-Building the image will probably take a couple of hours.
+Building the image will probably take a couple of hours the first time around.
